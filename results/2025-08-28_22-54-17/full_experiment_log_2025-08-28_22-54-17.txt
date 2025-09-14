@@ -1,0 +1,100 @@
+2025-08-28 22:54:17,679 - INFO - Definitive Journal Experiment Started
+2025-08-28 22:54:17,681 - WARNING - --- No GPU detected. Running on CPU. This will be slow. ---
+2025-08-28 22:54:17,682 - INFO - Found 92 files. Sampling 15.0% from each...
+2025-08-28 22:54:17,682 - INFO - Processing file 1/92: 1.benign.csv
+2025-08-28 22:54:18,002 - INFO - Processing file 2/92: 1.gafgyt.combo.csv
+2025-08-28 22:54:18,564 - INFO - Processing file 3/92: 1.gafgyt.junk.csv
+2025-08-28 22:54:18,832 - INFO - Processing file 4/92: 1.gafgyt.scan.csv
+2025-08-28 22:54:19,061 - INFO - Processing file 5/92: 1.gafgyt.tcp.csv
+2025-08-28 22:54:19,462 - INFO - Processing file 6/92: 1.gafgyt.udp.csv
+2025-08-28 22:54:19,918 - INFO - Processing file 7/92: 1.mirai.ack.csv
+2025-08-28 22:54:20,724 - INFO - Processing file 8/92: 1.mirai.scan.csv
+2025-08-28 22:54:21,411 - INFO - Processing file 9/92: 1.mirai.syn.csv
+2025-08-28 22:54:22,353 - INFO - Processing file 10/92: 1.mirai.udp.csv
+2025-08-28 22:54:24,138 - INFO - Processing file 11/92: 1.mirai.udpplain.csv
+2025-08-28 22:54:24,839 - INFO - Processing file 12/92: 2.benign.csv
+2025-08-28 22:54:24,969 - INFO - Processing file 13/92: 2.gafgyt.combo.csv
+2025-08-28 22:54:25,472 - INFO - Processing file 14/92: 2.gafgyt.junk.csv
+2025-08-28 22:54:25,745 - INFO - Processing file 15/92: 2.gafgyt.scan.csv
+2025-08-28 22:54:25,971 - INFO - Processing file 16/92: 2.gafgyt.tcp.csv
+2025-08-28 22:54:26,367 - INFO - Processing file 17/92: 2.gafgyt.udp.csv
+2025-08-28 22:54:26,818 - INFO - Processing file 18/92: 2.mirai.ack.csv
+2025-08-28 22:54:27,697 - INFO - Processing file 19/92: 2.mirai.scan.csv
+2025-08-28 22:54:27,991 - INFO - Processing file 20/92: 2.mirai.syn.csv
+2025-08-28 22:54:28,885 - INFO - Processing file 21/92: 2.mirai.udp.csv
+2025-08-28 22:54:30,071 - INFO - Processing file 22/92: 2.mirai.udpplain.csv
+2025-08-28 22:54:30,841 - INFO - Processing file 23/92: 3.benign.csv
+2025-08-28 22:54:31,100 - INFO - Processing file 24/92: 3.gafgyt.combo.csv
+2025-08-28 22:54:31,599 - INFO - Processing file 25/92: 3.gafgyt.junk.csv
+2025-08-28 22:54:31,875 - INFO - Processing file 26/92: 3.gafgyt.scan.csv
+2025-08-28 22:54:32,103 - INFO - Processing file 27/92: 3.gafgyt.tcp.csv
+2025-08-28 22:54:32,533 - INFO - Processing file 28/92: 3.gafgyt.udp.csv
+2025-08-28 22:54:32,961 - INFO - Processing file 29/92: 4.benign.csv
+2025-08-28 22:54:34,286 - INFO - Processing file 30/92: 4.gafgyt.combo.csv
+2025-08-28 22:54:34,844 - INFO - Processing file 31/92: 4.gafgyt.junk.csv
+2025-08-28 22:54:35,122 - INFO - Processing file 32/92: 4.gafgyt.scan.csv
+2025-08-28 22:54:35,337 - INFO - Processing file 33/92: 4.gafgyt.tcp.csv
+2025-08-28 22:54:35,721 - INFO - Processing file 34/92: 4.gafgyt.udp.csv
+2025-08-28 22:54:36,159 - INFO - Processing file 35/92: 4.mirai.ack.csv
+2025-08-28 22:54:36,836 - INFO - Processing file 36/92: 4.mirai.scan.csv
+2025-08-28 22:54:37,484 - INFO - Processing file 37/92: 4.mirai.syn.csv
+2025-08-28 22:54:38,384 - INFO - Processing file 38/92: 4.mirai.udp.csv
+2025-08-28 22:54:40,000 - INFO - Processing file 39/92: 4.mirai.udpplain.csv
+2025-08-28 22:54:40,690 - INFO - Processing file 40/92: 5.benign.csv
+2025-08-28 22:54:41,107 - INFO - Processing file 41/92: 5.gafgyt.combo.csv
+2025-08-28 22:54:41,690 - INFO - Processing file 42/92: 5.gafgyt.junk.csv
+2025-08-28 22:54:41,967 - INFO - Processing file 43/92: 5.gafgyt.scan.csv
+2025-08-28 22:54:42,198 - INFO - Processing file 44/92: 5.gafgyt.tcp.csv
+2025-08-28 22:54:42,637 - INFO - Processing file 45/92: 5.gafgyt.udp.csv
+2025-08-28 22:54:43,067 - INFO - Processing file 46/92: 5.mirai.ack.csv
+2025-08-28 22:54:43,539 - INFO - Processing file 47/92: 5.mirai.scan.csv
+2025-08-28 22:54:44,132 - INFO - Processing file 48/92: 5.mirai.syn.csv
+2025-08-28 22:54:44,636 - INFO - Processing file 49/92: 5.mirai.udp.csv
+2025-08-28 22:54:45,765 - INFO - Processing file 50/92: 5.mirai.udpplain.csv
+2025-08-28 22:54:46,235 - INFO - Processing file 51/92: 6.benign.csv
+2025-08-28 22:54:46,913 - INFO - Processing file 52/92: 6.gafgyt.combo.csv
+2025-08-28 22:54:47,449 - INFO - Processing file 53/92: 6.gafgyt.junk.csv
+2025-08-28 22:54:47,717 - INFO - Processing file 54/92: 6.gafgyt.scan.csv
+2025-08-28 22:54:47,937 - INFO - Processing file 55/92: 6.gafgyt.tcp.csv
+2025-08-28 22:54:48,320 - INFO - Processing file 56/92: 6.gafgyt.udp.csv
+2025-08-28 22:54:48,774 - INFO - Processing file 57/92: 6.mirai.ack.csv
+2025-08-28 22:54:49,211 - INFO - Processing file 58/92: 6.mirai.scan.csv
+2025-08-28 22:54:49,820 - INFO - Processing file 59/92: 6.mirai.syn.csv
+2025-08-28 22:54:50,260 - INFO - Processing file 60/92: 6.mirai.udp.csv
+2025-08-28 22:54:51,444 - INFO - Processing file 61/92: 6.mirai.udpplain.csv
+2025-08-28 22:54:51,871 - INFO - Processing file 62/92: 7.benign.csv
+2025-08-28 22:54:52,221 - INFO - Processing file 63/92: 7.gafgyt.combo.csv
+2025-08-28 22:54:52,764 - INFO - Processing file 64/92: 7.gafgyt.junk.csv
+2025-08-28 22:54:53,032 - INFO - Processing file 65/92: 7.gafgyt.scan.csv
+2025-08-28 22:54:53,256 - INFO - Processing file 66/92: 7.gafgyt.tcp.csv
+2025-08-28 22:54:53,658 - INFO - Processing file 67/92: 7.gafgyt.udp.csv
+2025-08-28 22:54:54,114 - INFO - Processing file 68/92: 8.benign.csv
+2025-08-28 22:54:54,423 - INFO - Processing file 69/92: 8.gafgyt.combo.csv
+2025-08-28 22:54:54,936 - INFO - Processing file 70/92: 8.gafgyt.junk.csv
+2025-08-28 22:54:55,203 - INFO - Processing file 71/92: 8.gafgyt.scan.csv
+2025-08-28 22:54:55,423 - INFO - Processing file 72/92: 8.gafgyt.tcp.csv
+2025-08-28 22:54:55,798 - INFO - Processing file 73/92: 8.gafgyt.udp.csv
+2025-08-28 22:54:56,223 - INFO - Processing file 74/92: 8.mirai.ack.csv
+2025-08-28 22:54:57,116 - INFO - Processing file 75/92: 8.mirai.scan.csv
+2025-08-28 22:54:57,410 - INFO - Processing file 76/92: 8.mirai.syn.csv
+2025-08-28 22:54:58,371 - INFO - Processing file 77/92: 8.mirai.udp.csv
+2025-08-28 22:54:59,560 - INFO - Processing file 78/92: 8.mirai.udpplain.csv
+2025-08-28 22:55:00,276 - INFO - Processing file 79/92: 9.benign.csv
+2025-08-28 22:55:00,401 - INFO - Processing file 80/92: 9.gafgyt.combo.csv
+2025-08-28 22:55:00,957 - INFO - Processing file 81/92: 9.gafgyt.junk.csv
+2025-08-28 22:55:01,221 - INFO - Processing file 82/92: 9.gafgyt.scan.csv
+2025-08-28 22:55:01,438 - INFO - Processing file 83/92: 9.gafgyt.tcp.csv
+2025-08-28 22:55:01,848 - INFO - Processing file 84/92: 9.gafgyt.udp.csv
+2025-08-28 22:55:02,264 - INFO - Processing file 85/92: 9.mirai.ack.csv
+2025-08-28 22:55:03,106 - INFO - Processing file 86/92: 9.mirai.scan.csv
+2025-08-28 22:55:03,398 - INFO - Processing file 87/92: 9.mirai.syn.csv
+2025-08-28 22:55:04,335 - INFO - Processing file 88/92: 9.mirai.udp.csv
+2025-08-28 22:55:05,546 - INFO - Processing file 89/92: 9.mirai.udpplain.csv
+2025-08-28 22:55:06,310 - INFO - Combining all samples...
+2025-08-28 22:55:06,492 - INFO - Combined sample created successfully! Shape: (1059391, 116)
+2025-08-28 22:55:06,535 - INFO - Preprocessing data...
+2025-08-28 22:55:07,132 - INFO - Data preprocessing complete. Final shape: (1059391, 115)
+2025-08-28 22:55:07,520 - INFO - Dataset composition plot saved to dataset_composition.png
+2025-08-28 22:55:07,542 - INFO - --- Training Statistical-Only Model (Isolation Forest)... ---
+2025-08-28 22:55:09,090 - INFO - Statistical model training complete.
+2025-08-28 22:55:09,091 - INFO - --- Training LSTM-Only Model... ---

@@ -1,0 +1,5 @@
+# Experiment Summary
+Sampled dataset shape: 1059391 rows × 116 columns
+Preprocessed matrix: 1059391 × 115
+
+Per-model metrics:
