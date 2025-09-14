@@ -1,0 +1,170 @@
+2025-09-14 12:30:28,466 - INFO - Using device: cuda
+2025-09-14 12:30:28,468 - INFO - GPU: NVIDIA GeForce RTX 3060 Ti
+2025-09-14 12:30:28,468 - INFO - Starting Improved Hybrid IoT Botnet Detection Experiment
+2025-09-14 12:30:28,468 - INFO - ================================================================================
+2025-09-14 12:30:28,469 - INFO - Found 92 files. Using 30.0% sample for balanced training...
+2025-09-14 12:30:28,469 - INFO - Processing benign file: 1.benign.csv
+2025-09-14 12:30:28,804 - INFO - Processing benign file: 2.benign.csv
+2025-09-14 12:30:28,905 - INFO - Processing benign file: 3.benign.csv
+2025-09-14 12:30:29,156 - INFO - Processing benign file: 4.benign.csv
+2025-09-14 12:30:30,712 - INFO - Processing benign file: 5.benign.csv
+2025-09-14 12:30:31,319 - INFO - Processing benign file: 6.benign.csv
+2025-09-14 12:30:32,307 - INFO - Processing benign file: 7.benign.csv
+2025-09-14 12:30:32,825 - INFO - Processing benign file: 8.benign.csv
+2025-09-14 12:30:33,298 - INFO - Processing benign file: 9.benign.csv
+2025-09-14 12:30:33,483 - INFO - Processing attack file: 1.gafgyt.combo.csv
+2025-09-14 12:30:34,330 - INFO - Processing attack file: 1.gafgyt.junk.csv
+2025-09-14 12:30:34,735 - INFO - Processing attack file: 1.gafgyt.scan.csv
+2025-09-14 12:30:35,076 - INFO - Processing attack file: 1.gafgyt.tcp.csv
+2025-09-14 12:30:35,648 - INFO - Processing attack file: 1.gafgyt.udp.csv
+2025-09-14 12:30:36,329 - INFO - Processing attack file: 1.mirai.ack.csv
+2025-09-14 12:30:37,484 - INFO - Processing attack file: 1.mirai.scan.csv
+2025-09-14 12:30:38,508 - INFO - Processing attack file: 1.mirai.syn.csv
+2025-09-14 12:30:39,893 - INFO - Processing attack file: 1.mirai.udp.csv
+2025-09-14 12:30:42,596 - INFO - Processing attack file: 1.mirai.udpplain.csv
+2025-09-14 12:30:43,615 - INFO - Processing attack file: 2.gafgyt.combo.csv
+2025-09-14 12:30:44,351 - INFO - Processing attack file: 2.gafgyt.junk.csv
+2025-09-14 12:30:44,780 - INFO - Processing attack file: 2.gafgyt.scan.csv
+2025-09-14 12:30:45,091 - INFO - Processing attack file: 2.gafgyt.tcp.csv
+2025-09-14 12:30:45,657 - INFO - Processing attack file: 2.gafgyt.udp.csv
+2025-09-14 12:30:46,309 - INFO - Processing attack file: 2.mirai.ack.csv
+2025-09-14 12:30:47,659 - INFO - Processing attack file: 2.mirai.scan.csv
+2025-09-14 12:30:48,061 - INFO - Processing attack file: 2.mirai.syn.csv
+2025-09-14 12:30:49,400 - INFO - Processing attack file: 2.mirai.udp.csv
+2025-09-14 12:30:51,109 - INFO - Processing attack file: 2.mirai.udpplain.csv
+2025-09-14 12:30:52,238 - INFO - Processing attack file: 3.gafgyt.combo.csv
+2025-09-14 12:30:52,966 - INFO - Processing attack file: 3.gafgyt.junk.csv
+2025-09-14 12:30:53,376 - INFO - Processing attack file: 3.gafgyt.scan.csv
+2025-09-14 12:30:53,710 - INFO - Processing attack file: 3.gafgyt.tcp.csv
+2025-09-14 12:30:54,348 - INFO - Processing attack file: 3.gafgyt.udp.csv
+2025-09-14 12:30:54,835 - INFO - Processing attack file: 4.gafgyt.combo.csv
+2025-09-14 12:30:55,397 - INFO - Processing attack file: 4.gafgyt.junk.csv
+2025-09-14 12:30:55,690 - INFO - Processing attack file: 4.gafgyt.scan.csv
+2025-09-14 12:30:55,913 - INFO - Processing attack file: 4.gafgyt.tcp.csv
+2025-09-14 12:30:56,437 - INFO - Processing attack file: 4.gafgyt.udp.csv
+2025-09-14 12:30:57,101 - INFO - Processing attack file: 4.mirai.ack.csv
+2025-09-14 12:30:58,014 - INFO - Processing attack file: 4.mirai.scan.csv
+2025-09-14 12:30:58,969 - INFO - Processing attack file: 4.mirai.syn.csv
+2025-09-14 12:31:00,057 - INFO - Processing attack file: 4.mirai.udp.csv
+2025-09-14 12:31:02,328 - INFO - Processing attack file: 4.mirai.udpplain.csv
+2025-09-14 12:31:03,297 - INFO - Processing attack file: 5.gafgyt.combo.csv
+2025-09-14 12:31:04,137 - INFO - Processing attack file: 5.gafgyt.junk.csv
+2025-09-14 12:31:04,528 - INFO - Processing attack file: 5.gafgyt.scan.csv
+2025-09-14 12:31:04,860 - INFO - Processing attack file: 5.gafgyt.tcp.csv
+2025-09-14 12:31:05,506 - INFO - Processing attack file: 5.gafgyt.udp.csv
+2025-09-14 12:31:06,150 - INFO - Processing attack file: 5.mirai.ack.csv
+2025-09-14 12:31:06,795 - INFO - Processing attack file: 5.mirai.scan.csv
+2025-09-14 12:31:07,696 - INFO - Processing attack file: 5.mirai.syn.csv
+2025-09-14 12:31:08,402 - INFO - Processing attack file: 5.mirai.udp.csv
+2025-09-14 12:31:10,107 - INFO - Processing attack file: 5.mirai.udpplain.csv
+2025-09-14 12:31:10,769 - INFO - Processing attack file: 6.gafgyt.combo.csv
+2025-09-14 12:31:11,582 - INFO - Processing attack file: 6.gafgyt.junk.csv
+2025-09-14 12:31:11,982 - INFO - Processing attack file: 6.gafgyt.scan.csv
+2025-09-14 12:31:12,309 - INFO - Processing attack file: 6.gafgyt.tcp.csv
+2025-09-14 12:31:12,854 - INFO - Processing attack file: 6.gafgyt.udp.csv
+2025-09-14 12:31:13,474 - INFO - Processing attack file: 6.mirai.ack.csv
+2025-09-14 12:31:14,104 - INFO - Processing attack file: 6.mirai.scan.csv
+2025-09-14 12:31:15,016 - INFO - Processing attack file: 6.mirai.syn.csv
+2025-09-14 12:31:15,692 - INFO - Processing attack file: 6.mirai.udp.csv
+2025-09-14 12:31:17,379 - INFO - Processing attack file: 6.mirai.udpplain.csv
+2025-09-14 12:31:18,056 - INFO - Processing attack file: 7.gafgyt.combo.csv
+2025-09-14 12:31:18,929 - INFO - Processing attack file: 7.gafgyt.junk.csv
+2025-09-14 12:31:19,304 - INFO - Processing attack file: 7.gafgyt.scan.csv
+2025-09-14 12:31:19,648 - INFO - Processing attack file: 7.gafgyt.tcp.csv
+2025-09-14 12:31:20,255 - INFO - Processing attack file: 7.gafgyt.udp.csv
+2025-09-14 12:31:20,949 - INFO - Processing attack file: 8.gafgyt.combo.csv
+2025-09-14 12:31:21,738 - INFO - Processing attack file: 8.gafgyt.junk.csv
+2025-09-14 12:31:22,142 - INFO - Processing attack file: 8.gafgyt.scan.csv
+2025-09-14 12:31:22,497 - INFO - Processing attack file: 8.gafgyt.tcp.csv
+2025-09-14 12:31:23,051 - INFO - Processing attack file: 8.gafgyt.udp.csv
+2025-09-14 12:31:23,671 - INFO - Processing attack file: 8.mirai.ack.csv
+2025-09-14 12:31:25,017 - INFO - Processing attack file: 8.mirai.scan.csv
+2025-09-14 12:31:25,426 - INFO - Processing attack file: 8.mirai.syn.csv
+2025-09-14 12:31:26,857 - INFO - Processing attack file: 8.mirai.udp.csv
+2025-09-14 12:31:28,026 - INFO - Processing attack file: 8.mirai.udpplain.csv
+2025-09-14 12:31:28,976 - INFO - Processing attack file: 9.gafgyt.combo.csv
+2025-09-14 12:31:29,828 - INFO - Processing attack file: 9.gafgyt.junk.csv
+2025-09-14 12:31:30,203 - INFO - Processing attack file: 9.gafgyt.scan.csv
+2025-09-14 12:31:30,551 - INFO - Processing attack file: 9.gafgyt.tcp.csv
+2025-09-14 12:31:31,156 - INFO - Processing attack file: 9.gafgyt.udp.csv
+2025-09-14 12:31:31,764 - INFO - Processing attack file: 9.mirai.ack.csv
+2025-09-14 12:31:33,064 - INFO - Processing attack file: 9.mirai.scan.csv
+2025-09-14 12:31:33,487 - INFO - Processing attack file: 9.mirai.syn.csv
+2025-09-14 12:31:34,921 - INFO - Processing attack file: 9.mirai.udp.csv
+2025-09-14 12:31:36,799 - INFO - Processing attack file: 9.mirai.udpplain.csv
+2025-09-14 12:31:38,141 - INFO - Combined sample created! Shape: (1142781, 116)
+2025-09-14 12:31:38,149 - INFO - Class distribution - Benign: 166779, Attack: 976002
+2025-09-14 12:31:38,199 - INFO - Advanced preprocessing...
+2025-09-14 12:31:44,392 - INFO - Preprocessing complete. Final features: 115
+2025-09-14 12:31:44,429 - INFO - Final dataset size: (1142781, 115)
+2025-09-14 12:31:44,431 - INFO - Benign samples: 166779
+2025-09-14 12:31:44,433 - INFO - Attack samples: 976002
+2025-09-14 12:31:44,499 - INFO - Training Enhanced Statistical Model...
+2025-09-14 12:31:54,616 - INFO - Enhanced statistical model training complete.
+2025-09-14 12:31:54,616 - INFO - Training Enhanced LSTM Model...
+2025-09-14 12:31:58,220 - INFO - Epoch [1/15] - Train Loss: 0.007195, Val Loss: 0.003049
+2025-09-14 12:32:07,827 - INFO - Epoch [6/15] - Train Loss: 0.001297, Val Loss: 0.001124
+2025-09-14 12:32:17,853 - INFO - Epoch [11/15] - Train Loss: 0.001207, Val Loss: 0.001080
+2025-09-14 12:32:25,791 - INFO - Enhanced LSTM model training complete.
+2025-09-14 12:32:25,798 - INFO - Calculating enhanced anomaly scores...
+2025-09-14 12:32:51,666 - INFO - Calculating enhanced LSTM reconstruction errors...
+2025-09-14 12:32:55,524 - INFO - Creating superior hybrid models...
+2025-09-14 12:32:56,127 - INFO - 
+=============== Statistical-Only RESULTS ===============
+2025-09-14 12:32:56,128 - INFO - AUC: 0.9757
+2025-09-14 12:32:56,128 - INFO - Accuracy: 0.7509
+2025-09-14 12:32:56,128 - INFO - Attack Precision: 0.9808
+2025-09-14 12:32:56,128 - INFO - Attack Recall: 0.7225
+2025-09-14 12:32:56,128 - INFO - Attack F1-Score: 0.8321
+2025-09-14 12:32:56,717 - INFO - 
+=============== LSTM-Only RESULTS ===============
+2025-09-14 12:32:56,717 - INFO - AUC: 0.9962
+2025-09-14 12:32:56,717 - INFO - Accuracy: 0.9907
+2025-09-14 12:32:56,718 - INFO - Attack Precision: 0.9965
+2025-09-14 12:32:56,718 - INFO - Attack Recall: 0.9925
+2025-09-14 12:32:56,718 - INFO - Attack F1-Score: 0.9945
+2025-09-14 12:32:57,354 - INFO - 
+=============== Adaptive_Weighted RESULTS ===============
+2025-09-14 12:32:57,354 - INFO - AUC: 0.9962
+2025-09-14 12:32:57,354 - INFO - Accuracy: 0.9947
+2025-09-14 12:32:57,354 - INFO - Attack Precision: 0.9970
+2025-09-14 12:32:57,354 - INFO - Attack Recall: 0.9968
+2025-09-14 12:32:57,354 - INFO - Attack F1-Score: 0.9969
+2025-09-14 12:32:57,927 - INFO - 
+=============== Maximum_Score RESULTS ===============
+2025-09-14 12:32:57,927 - INFO - AUC: 0.9921
+2025-09-14 12:32:57,927 - INFO - Accuracy: 0.9764
+2025-09-14 12:32:57,927 - INFO - Attack Precision: 0.9959
+2025-09-14 12:32:57,927 - INFO - Attack Recall: 0.9764
+2025-09-14 12:32:57,927 - INFO - Attack F1-Score: 0.9861
+2025-09-14 12:32:58,543 - INFO - 
+=============== Multiplicative RESULTS ===============
+2025-09-14 12:32:58,543 - INFO - AUC: 0.9947
+2025-09-14 12:32:58,543 - INFO - Accuracy: 0.9941
+2025-09-14 12:32:58,543 - INFO - Attack Precision: 0.9971
+2025-09-14 12:32:58,543 - INFO - Attack Recall: 0.9960
+2025-09-14 12:32:58,543 - INFO - Attack F1-Score: 0.9966
+2025-09-14 12:32:59,153 - INFO - 
+=============== Harmonic_Mean RESULTS ===============
+2025-09-14 12:32:59,153 - INFO - AUC: 0.9946
+2025-09-14 12:32:59,153 - INFO - Accuracy: 0.9916
+2025-09-14 12:32:59,153 - INFO - Attack Precision: 0.9969
+2025-09-14 12:32:59,153 - INFO - Attack Recall: 0.9933
+2025-09-14 12:32:59,153 - INFO - Attack F1-Score: 0.9951
+2025-09-14 12:32:59,767 - INFO - 
+=============== Dynamic_Weighted RESULTS ===============
+2025-09-14 12:32:59,768 - INFO - AUC: 0.9927
+2025-09-14 12:32:59,768 - INFO - Accuracy: 0.9763
+2025-09-14 12:32:59,768 - INFO - Attack Precision: 0.9962
+2025-09-14 12:32:59,768 - INFO - Attack Recall: 0.9759
+2025-09-14 12:32:59,768 - INFO - Attack F1-Score: 0.9860
+2025-09-14 12:33:00,331 - INFO - 
+=============== Selective RESULTS ===============
+2025-09-14 12:33:00,331 - INFO - AUC: 0.9945
+2025-09-14 12:33:00,331 - INFO - Accuracy: 0.9947
+2025-09-14 12:33:00,331 - INFO - Attack Precision: 0.9968
+2025-09-14 12:33:00,331 - INFO - Attack Recall: 0.9970
+2025-09-14 12:33:00,331 - INFO - Attack F1-Score: 0.9969
+2025-09-14 12:33:01,120 - INFO - Comprehensive visualization saved as comprehensive_hybrid_results_2025-09-14_12-30-28.png
+2025-09-14 12:33:01,122 - INFO - 
+Experiment completed in 2.54 minutes

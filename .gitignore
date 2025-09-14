@@ -1,1 +1,4 @@
 venv/*
+tf_gpu/*
+data/*
+cudnn-windows-x86_64-8.9.7.29_cuda12-archive/*

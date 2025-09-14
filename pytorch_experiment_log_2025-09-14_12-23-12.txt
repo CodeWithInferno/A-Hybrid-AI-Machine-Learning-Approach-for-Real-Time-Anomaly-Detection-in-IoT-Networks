@@ -1,0 +1,161 @@
+2025-09-14 12:23:13,003 - INFO - Using device: cuda
+2025-09-14 12:23:13,005 - INFO - GPU: NVIDIA GeForce RTX 3060 Ti
+2025-09-14 12:23:13,005 - INFO - GPU Memory: 8.6 GB
+2025-09-14 12:23:13,005 - INFO - Starting PyTorch-based N-BaLoT Experiment
+2025-09-14 12:23:13,005 - INFO - ============================================================
+2025-09-14 12:23:13,006 - INFO - Found 92 files. Sampling 50.0% from each...
+2025-09-14 12:23:13,006 - INFO - Processing file 1/92: 1.benign.csv
+2025-09-14 12:23:13,376 - INFO - Processing file 2/92: 1.gafgyt.combo.csv
+2025-09-14 12:23:14,026 - INFO - Processing file 3/92: 1.gafgyt.junk.csv
+2025-09-14 12:23:14,336 - INFO - Processing file 4/92: 1.gafgyt.scan.csv
+2025-09-14 12:23:14,582 - INFO - Processing file 5/92: 1.gafgyt.tcp.csv
+2025-09-14 12:23:14,993 - INFO - Processing file 6/92: 1.gafgyt.udp.csv
+2025-09-14 12:23:15,458 - INFO - Processing file 7/92: 1.mirai.ack.csv
+2025-09-14 12:23:16,369 - INFO - Processing file 8/92: 1.mirai.scan.csv
+2025-09-14 12:23:17,130 - INFO - Processing file 9/92: 1.mirai.syn.csv
+2025-09-14 12:23:18,220 - INFO - Processing file 10/92: 1.mirai.udp.csv
+2025-09-14 12:23:20,412 - INFO - Processing file 11/92: 1.mirai.udpplain.csv
+2025-09-14 12:23:21,315 - INFO - Processing file 12/92: 2.benign.csv
+2025-09-14 12:23:21,444 - INFO - Processing file 13/92: 2.gafgyt.combo.csv
+2025-09-14 12:23:22,071 - INFO - Processing file 14/92: 2.gafgyt.junk.csv
+2025-09-14 12:23:22,408 - INFO - Processing file 15/92: 2.gafgyt.scan.csv
+2025-09-14 12:23:22,664 - INFO - Processing file 16/92: 2.gafgyt.tcp.csv
+2025-09-14 12:23:23,144 - INFO - Processing file 17/92: 2.gafgyt.udp.csv
+2025-09-14 12:23:23,755 - INFO - Processing file 18/92: 2.mirai.ack.csv
+2025-09-14 12:23:24,924 - INFO - Processing file 19/92: 2.mirai.scan.csv
+2025-09-14 12:23:25,301 - INFO - Processing file 20/92: 2.mirai.syn.csv
+2025-09-14 12:23:26,395 - INFO - Processing file 21/92: 2.mirai.udp.csv
+2025-09-14 12:23:27,696 - INFO - Processing file 22/92: 2.mirai.udpplain.csv
+2025-09-14 12:23:28,632 - INFO - Processing file 23/92: 3.benign.csv
+2025-09-14 12:23:28,948 - INFO - Processing file 24/92: 3.gafgyt.combo.csv
+2025-09-14 12:23:29,472 - INFO - Processing file 25/92: 3.gafgyt.junk.csv
+2025-09-14 12:23:29,819 - INFO - Processing file 26/92: 3.gafgyt.scan.csv
+2025-09-14 12:23:30,060 - INFO - Processing file 27/92: 3.gafgyt.tcp.csv
+2025-09-14 12:23:30,548 - INFO - Processing file 28/92: 3.gafgyt.udp.csv
+2025-09-14 12:23:31,052 - INFO - Processing file 29/92: 4.benign.csv
+2025-09-14 12:23:32,671 - INFO - Processing file 30/92: 4.gafgyt.combo.csv
+2025-09-14 12:23:33,346 - INFO - Processing file 31/92: 4.gafgyt.junk.csv
+2025-09-14 12:23:33,673 - INFO - Processing file 32/92: 4.gafgyt.scan.csv
+2025-09-14 12:23:33,931 - INFO - Processing file 33/92: 4.gafgyt.tcp.csv
+2025-09-14 12:23:34,368 - INFO - Processing file 34/92: 4.gafgyt.udp.csv
+2025-09-14 12:23:34,905 - INFO - Processing file 35/92: 4.mirai.ack.csv
+2025-09-14 12:23:35,720 - INFO - Processing file 36/92: 4.mirai.scan.csv
+2025-09-14 12:23:36,546 - INFO - Processing file 37/92: 4.mirai.syn.csv
+2025-09-14 12:23:37,666 - INFO - Processing file 38/92: 4.mirai.udp.csv
+2025-09-14 12:23:39,683 - INFO - Processing file 39/92: 4.mirai.udpplain.csv
+2025-09-14 12:23:40,497 - INFO - Processing file 40/92: 5.benign.csv
+2025-09-14 12:23:41,052 - INFO - Processing file 41/92: 5.gafgyt.combo.csv
+2025-09-14 12:23:41,700 - INFO - Processing file 42/92: 5.gafgyt.junk.csv
+2025-09-14 12:23:42,110 - INFO - Processing file 43/92: 5.gafgyt.scan.csv
+2025-09-14 12:23:42,409 - INFO - Processing file 44/92: 5.gafgyt.tcp.csv
+2025-09-14 12:23:42,975 - INFO - Processing file 45/92: 5.gafgyt.udp.csv
+2025-09-14 12:23:43,555 - INFO - Processing file 46/92: 5.mirai.ack.csv
+2025-09-14 12:23:44,201 - INFO - Processing file 47/92: 5.mirai.scan.csv
+2025-09-14 12:23:44,883 - INFO - Processing file 48/92: 5.mirai.syn.csv
+2025-09-14 12:23:45,392 - INFO - Processing file 49/92: 5.mirai.udp.csv
+2025-09-14 12:23:46,857 - INFO - Processing file 50/92: 5.mirai.udpplain.csv
+2025-09-14 12:23:47,446 - INFO - Processing file 51/92: 6.benign.csv
+2025-09-14 12:23:48,293 - INFO - Processing file 52/92: 6.gafgyt.combo.csv
+2025-09-14 12:23:49,006 - INFO - Processing file 53/92: 6.gafgyt.junk.csv
+2025-09-14 12:23:49,375 - INFO - Processing file 54/92: 6.gafgyt.scan.csv
+2025-09-14 12:23:49,674 - INFO - Processing file 55/92: 6.gafgyt.tcp.csv
+2025-09-14 12:23:50,137 - INFO - Processing file 56/92: 6.gafgyt.udp.csv
+2025-09-14 12:23:50,703 - INFO - Processing file 57/92: 6.mirai.ack.csv
+2025-09-14 12:23:51,245 - INFO - Processing file 58/92: 6.mirai.scan.csv
+2025-09-14 12:23:52,027 - INFO - Processing file 59/92: 6.mirai.syn.csv
+2025-09-14 12:23:52,628 - INFO - Processing file 60/92: 6.mirai.udp.csv
+2025-09-14 12:23:54,239 - INFO - Processing file 61/92: 6.mirai.udpplain.csv
+2025-09-14 12:23:54,814 - INFO - Processing file 62/92: 7.benign.csv
+2025-09-14 12:23:55,276 - INFO - Processing file 63/92: 7.gafgyt.combo.csv
+2025-09-14 12:23:56,042 - INFO - Processing file 64/92: 7.gafgyt.junk.csv
+2025-09-14 12:23:56,426 - INFO - Processing file 65/92: 7.gafgyt.scan.csv
+2025-09-14 12:23:56,722 - INFO - Processing file 66/92: 7.gafgyt.tcp.csv
+2025-09-14 12:23:57,293 - INFO - Processing file 67/92: 7.gafgyt.udp.csv
+2025-09-14 12:23:57,891 - INFO - Processing file 68/92: 8.benign.csv
+2025-09-14 12:23:58,272 - INFO - Processing file 69/92: 8.gafgyt.combo.csv
+2025-09-14 12:23:58,949 - INFO - Processing file 70/92: 8.gafgyt.junk.csv
+2025-09-14 12:23:59,287 - INFO - Processing file 71/92: 8.gafgyt.scan.csv
+2025-09-14 12:23:59,558 - INFO - Processing file 72/92: 8.gafgyt.tcp.csv
+2025-09-14 12:24:00,045 - INFO - Processing file 73/92: 8.gafgyt.udp.csv
+2025-09-14 12:24:00,638 - INFO - Processing file 74/92: 8.mirai.ack.csv
+2025-09-14 12:24:01,748 - INFO - Processing file 75/92: 8.mirai.scan.csv
+2025-09-14 12:24:02,112 - INFO - Processing file 76/92: 8.mirai.syn.csv
+2025-09-14 12:24:03,437 - INFO - Processing file 77/92: 8.mirai.udp.csv
+2025-09-14 12:24:05,048 - INFO - Processing file 78/92: 8.mirai.udpplain.csv
+2025-09-14 12:24:05,954 - INFO - Processing file 79/92: 9.benign.csv
+2025-09-14 12:24:06,121 - INFO - Processing file 80/92: 9.gafgyt.combo.csv
+2025-09-14 12:24:06,862 - INFO - Processing file 81/92: 9.gafgyt.junk.csv
+2025-09-14 12:24:07,195 - INFO - Processing file 82/92: 9.gafgyt.scan.csv
+2025-09-14 12:24:07,523 - INFO - Processing file 83/92: 9.gafgyt.tcp.csv
+2025-09-14 12:24:08,084 - INFO - Processing file 84/92: 9.gafgyt.udp.csv
+2025-09-14 12:24:08,745 - INFO - Processing file 85/92: 9.mirai.ack.csv
+2025-09-14 12:24:09,847 - INFO - Processing file 86/92: 9.mirai.scan.csv
+2025-09-14 12:24:10,174 - INFO - Processing file 87/92: 9.mirai.syn.csv
+2025-09-14 12:24:11,339 - INFO - Processing file 88/92: 9.mirai.udp.csv
+2025-09-14 12:24:13,020 - INFO - Processing file 89/92: 9.mirai.udpplain.csv
+2025-09-14 12:24:14,711 - INFO - Combined sample created! Shape: (3531298, 116)
+2025-09-14 12:24:14,844 - INFO - Preprocessing data...
+2025-09-14 12:24:17,303 - INFO - Data preprocessing complete. Shape: (3531298, 115)
+2025-09-14 12:24:17,420 - INFO - Dataset size: (3531298, 115)
+2025-09-14 12:24:17,427 - INFO - Benign samples: 277965
+2025-09-14 12:24:17,432 - INFO - Attack samples: 3253333
+2025-09-14 12:24:17,512 - INFO - Normal data for training: (277965, 115)
+2025-09-14 12:24:17,512 - INFO - Training Statistical-Only Model (Isolation Forest)...
+2025-09-14 12:24:17,723 - INFO - Statistical model training complete.
+2025-09-14 12:24:17,723 - INFO - Training LSTM-Only Model (PyTorch)...
+2025-09-14 12:24:25,899 - INFO - Epoch [1/10], Loss: 0.003197
+2025-09-14 12:24:39,413 - INFO - Epoch [6/10], Loss: 0.000124
+2025-09-14 12:24:50,341 - INFO - LSTM model training complete.
+2025-09-14 12:24:50,341 - INFO - Calculating anomaly scores...
+2025-09-14 12:24:56,239 - INFO - Calculating LSTM reconstruction errors...
+2025-09-14 12:25:01,530 - INFO - 
+==================== Statistical-Only RESULTS ====================
+2025-09-14 12:25:01,530 - INFO - AUC: 0.9312
+2025-09-14 12:25:01,530 - INFO - Accuracy: 0.7307
+2025-09-14 12:25:01,531 - INFO - Optimal Threshold: -0.059310
+2025-09-14 12:25:01,531 - INFO - 
+Classification Report:
+2025-09-14 12:25:02,489 - INFO -               precision    recall  f1-score   support
+
+      Benign       0.20      0.83      0.33    277965
+      Attack       0.98      0.72      0.83   3253333
+
+    accuracy                           0.73   3531298
+   macro avg       0.59      0.78      0.58   3531298
+weighted avg       0.92      0.73      0.79   3531298
+
+2025-09-14 12:25:04,587 - INFO - 
+==================== LSTM-Only RESULTS ====================
+2025-09-14 12:25:04,587 - INFO - AUC: 0.9975
+2025-09-14 12:25:04,588 - INFO - Accuracy: 0.9974
+2025-09-14 12:25:04,588 - INFO - Optimal Threshold: 0.000926
+2025-09-14 12:25:04,588 - INFO - 
+Classification Report:
+2025-09-14 12:25:05,513 - INFO -               precision    recall  f1-score   support
+
+      Benign       0.98      0.99      0.98    277965
+      Attack       1.00      1.00      1.00   3253333
+
+    accuracy                           1.00   3531298
+   macro avg       0.99      0.99      0.99   3531298
+weighted avg       1.00      1.00      1.00   3531298
+
+2025-09-14 12:25:07,766 - INFO - 
+==================== Hybrid RESULTS ====================
+2025-09-14 12:25:07,766 - INFO - AUC: 0.9518
+2025-09-14 12:25:07,766 - INFO - Accuracy: 0.9669
+2025-09-14 12:25:07,766 - INFO - Optimal Threshold: 0.115574
+2025-09-14 12:25:07,766 - INFO - 
+Classification Report:
+2025-09-14 12:25:08,777 - INFO -               precision    recall  f1-score   support
+
+      Benign       0.76      0.84      0.80    277965
+      Attack       0.99      0.98      0.98   3253333
+
+    accuracy                           0.97   3531298
+   macro avg       0.87      0.91      0.89   3531298
+weighted avg       0.97      0.97      0.97   3531298
+
+2025-09-14 12:25:09,507 - INFO - Results visualization saved as pytorch_experiment_results_2025-09-14_12-23-12.png
+2025-09-14 12:25:09,520 - INFO - 
+Experiment completed in 1.94 minutes

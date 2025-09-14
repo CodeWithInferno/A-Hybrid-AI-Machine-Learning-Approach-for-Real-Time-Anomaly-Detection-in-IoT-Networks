@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(python:*)",
+      "Bash(git add:*)",
+      "Bash(nvidia-smi:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(pip install:*)",
+      "Bash(copy:*)",
+      "Bash(cp:*)",
+      "Bash(pdflatex:*)",
+      "Bash(powershell:*)",
+      "Bash(where:*)"
+    ],
+    "deny": []
+  }
+}
