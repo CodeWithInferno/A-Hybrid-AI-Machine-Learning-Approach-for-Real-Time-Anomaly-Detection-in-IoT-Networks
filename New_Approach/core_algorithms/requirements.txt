@@ -1,0 +1,51 @@
+# Advanced LSTM with Temporal Attention - Requirements
+# ===================================================
+
+# Core PyTorch and Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Data Processing and Numerical Computing
+numpy>=1.21.0
+pandas>=1.5.0
+scipy>=1.9.0
+
+# Machine Learning and Preprocessing
+scikit-learn>=1.1.0
+
+# Visualization and Plotting
+matplotlib>=3.5.0
+seaborn>=0.12.0
+plotly>=5.10.0
+
+# Progress Bars and Utilities
+tqdm>=4.64.0
+
+# Experiment Tracking (Optional)
+wandb>=0.13.0
+
+# Additional Utilities
+click>=8.0.0
+pyyaml>=6.0
+python-dateutil>=2.8.0
+
+# Development and Testing (Optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=0.991
+
+# Memory Profiling (Optional)
+memory-profiler>=0.60.0
+psutil>=5.9.0
+
+# GPU Monitoring (Optional)
+pynvml>=11.4.0
+gpustat>=1.0.0
+
+# Jupyter Notebook Support (Optional)
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+notebook>=6.5.0

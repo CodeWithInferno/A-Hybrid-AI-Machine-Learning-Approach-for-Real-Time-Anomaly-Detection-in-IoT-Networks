@@ -1,0 +1,14 @@
+This directory contains figures for the paper.
+
+Expected figures:
+- attack_perf.pdf/png - Attack-specific performance comparison
+- temporal.pdf/png - Temporal analysis visualization
+- architecture.pdf/png - System architecture diagram
+- multi_scale.pdf/png - Multi-scale decomposition illustration
+- game_theory.pdf/png - Game-theoretic fusion visualization
+- results_comparison.pdf/png - Overall results comparison
+
+To generate figures from the experiments:
+1. Run the visualization scripts in ../visualization/
+2. Copy the generated figures to this directory
+3. Reference them in main.tex using \includegraphics{figures/filename}

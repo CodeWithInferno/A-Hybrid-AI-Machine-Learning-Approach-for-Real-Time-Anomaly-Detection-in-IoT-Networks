@@ -1,0 +1,26 @@
+EASIEST WAY TO COMPILE YOUR LATEX PAPER:
+
+1. LATEXBASE.COM (NO SIGNUP, NO QUOTA)
+   - Go to: https://latexbase.com
+   - Delete their example code
+   - Copy ALL content from main_extended.tex
+   - Copy ALL content from bibliography.bib into the bib section
+   - Click "Compile" button
+   - Download PDF instantly!
+
+2. LOCAL QUICK OPTION:
+   Download MiKTeX from: https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-24.1-x64.exe
+   
+   After install, open Command Prompt here and run:
+   pdflatex main_extended.tex
+   bibtex main_extended
+   pdflatex main_extended.tex
+   pdflatex main_extended.tex
+
+3. YOUR PAPER STATS:
+   - 10 pages
+   - 97.3% accuracy results
+   - Game-theoretic fusion
+   - Ready for submission!
+
+Note: Since Overleaf has quota limits, latexbase.com is the fastest free option!

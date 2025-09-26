@@ -1,0 +1,31 @@
+# Advanced IoT Visualization Library Requirements
+# Install with: pip install -r requirements.txt
+
+# Core plotting libraries
+plotly>=5.17.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine learning (for anomaly detection examples)
+scikit-learn>=1.3.0
+
+# Network analysis
+networkx>=3.1
+
+# Additional color schemes and styling
+colorcet>=3.0.1
+
+# Optional: For enhanced performance
+kaleido>=0.2.1  # For static image export in Plotly
+
+# Development and examples
+jupyter>=1.0.0  # For running example notebooks
+ipywidgets>=8.0.0  # For interactive widgets in Jupyter
+
+# Data generation utilities (for examples)
+faker>=19.0.0  # For generating realistic test data
