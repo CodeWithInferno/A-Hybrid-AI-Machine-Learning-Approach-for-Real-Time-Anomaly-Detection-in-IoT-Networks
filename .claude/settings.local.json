@@ -34,7 +34,9 @@
       "Bash(echo:*)",
       "Bash(mv:*)",
       "Bash(tree:*)",
-      "Bash(start compile_latex_online.html)"
+      "Bash(start compile_latex_online.html)",
+      "Bash(open \"/Users/pratham/Programming/IOT/A-Hybrid-AI-Machine-Learning-Approach-for-Real-Time-Anomaly-Detection-in-IoT-Networks/New_Approach/paper/compile_latex_online.html\")",
+      "Read(//var/folders/bm/pxctjpzn6rj01lpsc3wvnn8r0000gn/T/TemporaryItems/NSIRD_screencaptureui_2Ji6ur/**)"
     ],
     "deny": []
   }

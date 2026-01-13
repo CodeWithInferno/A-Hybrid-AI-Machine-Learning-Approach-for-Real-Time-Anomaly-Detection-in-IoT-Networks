@@ -45,62 +45,17 @@ The Internet of Things (IoT) ecosystem has grown to over 75 billion devices~\cit
 
 \begin{figure*}[!t]
 \centering
-\begin{tikzpicture}[scale=0.9, transform shape]
-% Define styles
-\tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=6em, text centered, rounded corners, minimum height=4em]
-\tikzstyle{smallblock} = [rectangle, draw, fill=green!20, text width=5em, text centered, rounded corners, minimum height=3em]
-\tikzstyle{decision} = [diamond, draw, fill=orange!20, text width=4em, text badly centered, inner sep=0pt]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-
-% Input layer
-\node[block] (input) at (0,0) {IoT Traffic Stream};
-
-% Multi-scale decomposition
-\node[block] (wavelet) at (3,0) {Wavelet Decomposition};
-\node[smallblock] (micro) at (6,2) {Microsecond Scale};
-\node[smallblock] (milli) at (6,0.7) {Millisecond Scale};
-\node[smallblock] (sec) at (6,-0.7) {Second Scale};
-\node[smallblock] (min) at (6,-2) {Minute Scale};
-
-% Feature extraction
-\node[block] (lstm) at (9,1) {LSTM with Attention};
-\node[block] (arima) at (9,-1) {Non-stationary ARIMA};
-
-% Game theory fusion
-\node[block, fill=red!20] (game) at (12,0) {Game-Theoretic Fusion};
-\node[smallblock, fill=yellow!20] (nash) at (15,1.5) {Nash Equilibrium};
-\node[smallblock, fill=yellow!20] (minimax) at (15,0.5) {Minimax Strategy};
-\node[smallblock, fill=yellow!20] (bayes) at (15,-0.5) {Bayesian Game};
-\node[smallblock, fill=yellow!20] (stack) at (15,-1.5) {Stackelberg};
-
-% Output
-\node[decision] (detect) at (18,0) {Anomaly Detection};
-
-% Connections
-\draw[arrow] (input) -- (wavelet);
-\draw[arrow] (wavelet) -- (micro);
-\draw[arrow] (wavelet) -- (milli);
-\draw[arrow] (wavelet) -- (sec);
-\draw[arrow] (wavelet) -- (min);
-\draw[arrow] (micro) -- (lstm);
-\draw[arrow] (milli) -- (lstm);
-\draw[arrow] (sec) -- (arima);
-\draw[arrow] (min) -- (arima);
-\draw[arrow] (lstm) -- (game);
-\draw[arrow] (arima) -- (game);
-\draw[arrow] (game) -- (nash);
-\draw[arrow] (game) -- (minimax);
-\draw[arrow] (game) -- (bayes);
-\draw[arrow] (game) -- (stack);
-\draw[arrow] (nash) -- (detect);
-\draw[arrow] (minimax) -- (detect);
-\draw[arrow] (bayes) -- (detect);
-\draw[arrow] (stack) -- (detect);
-
-% Feedback loop
-\draw[arrow, dashed, bend right=30] (detect) to node[auto,swap] {Adaptive Learning} (game);
-
-\end{tikzpicture}
+\fbox{\parbox{0.9\textwidth}{\centering
+\textbf{[SYSTEM ARCHITECTURE DIAGRAM]}\\[1em]
+IoT Traffic Stream $\rightarrow$ Wavelet Decomposition $\rightarrow$ Multi-scale Analysis\\
+(Microsecond, Millisecond, Second, Minute scales)\\[0.5em]
+$\downarrow$\\[0.5em]
+LSTM (short-term patterns) + ARIMA (long-term trends)\\[0.5em]
+$\downarrow$\\[0.5em]
+Game-Theoretic Fusion (Nash, Minimax, Bayesian, Stackelberg)\\[0.5em]
+$\downarrow$\\[0.5em]
+Anomaly Detection (97.3\% accuracy)
+}}
 \caption{System architecture showing multi-scale temporal decomposition, LSTM-ARIMA feature extraction, and game-theoretic fusion with 10 optimization strategies. The feedback loop enables continuous adaptation to evolving attack patterns.}
 \label{fig:architecture}
 \end{figure*}
@@ -326,49 +281,32 @@ We implement 10 fusion strategies:
 
 \subsection{Algorithms}
 
-\begin{algorithm}[t]
-\caption{Game-Theoretic Fusion}
-\label{alg:fusion}
-\begin{algorithmic}[1]
-\STATE \textbf{Input:} LSTM output $s_L$, ARIMA output $s_A$, context $c$
-\STATE \textbf{Output:} Fused anomaly score $s$
-\STATE // Compute payoff matrix
-\STATE $P \gets \text{ComputePayoffMatrix}(s_L, s_A, c)$
-\STATE // Nash equilibrium
-\STATE $(\alpha_N, \beta_N) \gets \text{SolveNashEquilibrium}(P)$
-\STATE // Minimax strategy
-\STATE $(\alpha_M, \beta_M) \gets \text{ComputeMinimax}(s_L, s_A)$
-\STATE // Bayesian update
-\STATE $p(\theta) \gets \text{UpdateBeliefs}(c.\text{history})$
-\STATE $(\alpha_B, \beta_B) \gets \text{BayesianOptimal}(p(\theta))$
-\STATE // Meta-fusion
-\STATE $\mathbf{w} \gets \text{ComputeMetaWeights}(c)$
-\STATE $\alpha^* \gets \sum_i w_i \alpha_i$
-\STATE $\beta^* \gets \sum_i w_i \beta_i$
-\STATE \textbf{return} $\alpha^* s_L + \beta^* s_A$
-\end{algorithmic}
-\end{algorithm}
+\noindent\fbox{\parbox{\textwidth}{
+\textbf{Algorithm 1: Game-Theoretic Fusion}\\[0.5em]
+\textbf{Input:} LSTM output $s_L$, ARIMA output $s_A$, context $c$\\
+\textbf{Output:} Fused anomaly score $s$\\[0.5em]
+1. Compute payoff matrix: $P \gets \text{ComputePayoffMatrix}(s_L, s_A, c)$\\
+2. Nash equilibrium: $(\alpha_N, \beta_N) \gets \text{SolveNashEquilibrium}(P)$\\
+3. Minimax strategy: $(\alpha_M, \beta_M) \gets \text{ComputeMinimax}(s_L, s_A)$\\
+4. Bayesian update: $p(\theta) \gets \text{UpdateBeliefs}(c.\text{history})$\\
+5. Meta-fusion: $\mathbf{w} \gets \text{ComputeMetaWeights}(c)$\\
+6. \textbf{return} $\alpha^* s_L + \beta^* s_A$
+}}
 
-\begin{algorithm}[t]
-\caption{Multi-Scale Feature Extraction}
-\label{alg:multiscale}
-\begin{algorithmic}[1]
-\STATE \textbf{Input:} Signal $X \in \mathbb{R}^T$, scales $S = \{s_1, ..., s_J\}$
-\STATE \textbf{Output:} Multi-scale features $\mathbf{F}$
-\STATE $\mathbf{F} \gets \emptyset$
-\FOR{each scale $s_j \in S$}
-    \STATE // Wavelet decomposition
-    \STATE $W_j \gets \text{WaveletTransform}(X, \psi_j, s_j)$
-    \STATE // Extract features
-    \STATE $f_j.\text{energy} \gets \|W_j\|^2$
-    \STATE $f_j.\text{entropy} \gets -\sum_i p_i \log p_i$
-    \STATE $f_j.\text{peaks} \gets \text{CountPeaks}(W_j)$
-    \STATE $f_j.\text{hurst} \gets \text{HurstExponent}(W_j)$
-    \STATE $\mathbf{F} \gets \mathbf{F} \cup \{f_j\}$
-\ENDFOR
-\STATE \textbf{return} $\mathbf{F}$
-\end{algorithmic}
-\end{algorithm}
+\noindent\fbox{\parbox{\textwidth}{
+\textbf{Algorithm 2: Multi-Scale Feature Extraction}\\[0.5em]
+\textbf{Input:} Signal $X \in \mathbb{R}^T$, scales $S = \{s_1, ..., s_J\}$\\
+\textbf{Output:} Multi-scale features $\mathbf{F}$\\[0.5em]
+1. Initialize $\mathbf{F} \gets \emptyset$\\
+2. For each scale $s_j \in S$:\\
+\quad - Wavelet decomposition: $W_j \gets \text{WaveletTransform}(X, \psi_j, s_j)$\\
+\quad - Extract energy: $f_j.\text{energy} \gets \|W_j\|^2$\\
+\quad - Extract entropy: $f_j.\text{entropy} \gets -\sum_i p_i \log p_i$\\
+\quad - Count peaks: $f_j.\text{peaks} \gets \text{CountPeaks}(W_j)$\\
+\quad - Hurst exponent: $f_j.\text{hurst} \gets \text{HurstExponent}(W_j)$\\
+\quad - Update features: $\mathbf{F} \gets \mathbf{F} \cup \{f_j\}$\\
+3. \textbf{return} $\mathbf{F}$
+}}
 
 \subsection{Computational Complexity}
 
@@ -557,9 +495,9 @@ Table~\ref{tab:performance} shows our approach significantly outperforms all bas
 \caption{Performance Comparison on N-BaIoT Dataset}
 \label{tab:performance}
 \begin{tabular}{lcccc}
-\toprule
+\hline
 \textbf{Method} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
-\midrule
+\hline
 LSTM-only & 92.1\% & 91.3\% & 90.8\% & 91.0\% \\
 ARIMA-only & 91.8\% & 90.2\% & 89.5\% & 89.8\% \\
 Isolation Forest & 87.5\% & 85.2\% & 84.6\% & 84.9\% \\
@@ -567,9 +505,9 @@ One-Class SVM & 85.7\% & 83.5\% & 82.8\% & 83.1\% \\
 AutoEncoder & 89.3\% & 88.1\% & 87.4\% & 87.7\% \\
 MSCRED & 90.8\% & 89.7\% & 89.2\% & 89.4\% \\
 OmniAnomaly & 91.5\% & 90.4\% & 89.9\% & 90.1\% \\
-\midrule
+\hline
 \textbf{Our Approach} & \textbf{97.3\%} & \textbf{96.8\%} & \textbf{97.2\%} & \textbf{97.0\%} \\
-\bottomrule
+\hline
 \end{tabular}
 \end{table}
 
@@ -592,16 +530,16 @@ We analyze the contribution of each component:
 \caption{Ablation Study Results}
 \label{tab:ablation}
 \begin{tabular}{lcc}
-\toprule
+\hline
 \textbf{Configuration} & \textbf{Accuracy} & \textbf{$\Delta$ from Full} \\
-\midrule
+\hline
 Full System & 97.3\% & - \\
 w/o Multi-scale & 94.1\% & -3.2\% \\
 w/o Game Theory & 95.4\% & -1.9\% \\
 w/o Attention & 95.8\% & -1.5\% \\
 w/o Wavelet & 95.2\% & -2.1\% \\
 Simple Average Fusion & 93.5\% & -3.8\% \\
-\bottomrule
+\hline
 \end{tabular}
 \end{table}
 
@@ -621,16 +559,16 @@ Performance varies by attack type but remains superior:
 \caption{Performance by Attack Type}
 \label{tab:attacktype}
 \begin{tabular}{lccc}
-\toprule
+\hline
 \textbf{Attack Type} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
-\midrule
+\hline
 Mirai (UDP flood) & 97.8\% & 98.2\% & 98.0\% \\
 Mirai (SYN flood) & 97.2\% & 97.6\% & 97.4\% \\
 Mirai (ACK flood) & 96.8\% & 97.1\% & 96.9\% \\
 BASHLITE (Combo) & 96.5\% & 96.8\% & 96.6\% \\
 BASHLITE (Junk) & 97.0\% & 97.3\% & 97.1\% \\
 BASHLITE (Scan) & 97.4\% & 97.7\% & 97.5\% \\
-\bottomrule
+\hline
 \end{tabular}
 \end{table}
 
@@ -659,16 +597,16 @@ Our GPU-optimized implementation achieves:
 \caption{Performance by Attack Type}
 \label{tab:attacktype}
 \begin{tabular}{lccc}
-\toprule
+\hline
 \textbf{Attack Type} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
-\midrule
+\hline
 Mirai (UDP flood) & 99.67\% & 99.89\% & 99.78\% \\
 Mirai (SYN flood) & 99.45\% & 99.67\% & 99.56\% \\
 Mirai (ACK flood) & 99.23\% & 99.45\% & 99.34\% \\
 BASHLITE (Combo) & 99.12\% & 98.98\% & 99.05\% \\
 BASHLITE (Junk) & 99.34\% & 99.23\% & 99.28\% \\
 BASHLITE (Scan) & 99.56\% & 99.12\% & 99.34\% \\
-\bottomrule
+\hline
 \end{tabular}
 \end{table}
 
